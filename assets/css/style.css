@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    padding: 50px;
+}
+h2 {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2::after{
+    content: '*';
+    color: red;
+}
+main form div {
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#name, #lastname {
+    padding: 5px;
+    width: 200px;
+}
+
+#theme {
+    padding: 5px;
+    width: 405px;
+}
+#mail {
+    padding: 5px;
+    width: 405px;
+}
+#freetext {
+    padding: 5px;
+    width: 405px; 
+}
+
+input[type=submit]{
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 5px 20px;
+    background-color: blue;
+    width: 400px;
+}
+
